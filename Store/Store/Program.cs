@@ -1,4 +1,5 @@
 ﻿using System;
+using Store.Core;
 
 namespace Store
 {
@@ -6,7 +7,8 @@ namespace Store
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var testEngine = new TestEngine();
+            testEngine.Run();
         }
     }
 }
